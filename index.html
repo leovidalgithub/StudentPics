@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>3 Col Portfolio - Start Bootstrap Template</title>
+    <title>May Bootcamp Students</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -22,29 +22,48 @@
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+        <![endif]-->
 
-</head>
+        <style type="text/css">
 
-<body>
+            .child {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: black;
+                opacity: .5;
+            }
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
+            .parent:hover .child {
+                display: block;
+
+                -webkit-animation: fadeIn 1s;
+                animation: fadeIn 1s;
+            }​
+        </style>
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Code Institute</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+               <!--      <li>
                         <a href="#">About</a>
                     </li>
                     <li>
@@ -52,7 +71,7 @@
                     </li>
                     <li>
                         <a href="#">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -66,8 +85,8 @@
         <!-- Page Header -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Page Heading
-                    <small>Secondary Text</small>
+                <h1 class="page-header">May Bootcamp
+                    <small>2016</small>
                 </h1>
             </div>
         </div>
@@ -75,151 +94,262 @@
 
         <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-
-        <!-- Projects Row -->
-        <div class="row">
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Pagination -->
-        <div class="row text-center">
-            <div class="col-lg-12">
-                <ul class="pagination">
-                    <li>
-                        <a href="#">&laquo;</a>
-                    </li>
-                    <li class="active">
-                        <a href="#">1</a>
-                    </li>
-                    <li>
-                        <a href="#">2</a>
-                    </li>
-                    <li>
-                        <a href="#">3</a>
-                    </li>
-                    <li>
-                        <a href="#">4</a>
-                    </li>
-                    <li>
-                        <a href="#">5</a>
-                    </li>
-                    <li>
-                        <a href="#">&raquo;</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+        <div class="col-md-4 portfolio-item parent" style="position:relative;">
+                <div class="image-container">
+                    <a href="#">
+                        <img class="img-responsive" src="img/IMG_0833.jpg" alt="">
+                        
+                    </a>
                 </div>
+                <div class="info-container child">
+                    <p>Email: </p>
+                    <p>Github: </p>
+                </div>
+                <h3>
+                    Sean Brady
+                </h3>
+
             </div>
-            <!-- /.row -->
-        </footer>
+
+            <div class="col-md-4 portfolio-item parent">
+
+                <img class="img-responsive" src="img/IMG_0835.jpg" alt="">
+                
+                <h3>
+                    Julien Clidiere
+                </h3>
+                
+                <p class="child">Email: </p>
+                <p class="child">Github: </p>
+
+            </div>
+            <div class="col-md-4 portfolio-item parent">
+
+                <img class="img-responsive" src="img/IMG_0830.jpg" alt="">
+                
+                <h3>
+                    Luke Rickard
+                </h3>
+                <p class="child">Email: </p>
+                <p class="child">Github: </p>
+            </div>  
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+
+         <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0457.jpg" alt="">
+
+            <h3>
+                Diarmuid Nash
+            </h3>
+            <p class="child">Email: </p>
+            <p class="child">Github: </p>
+
+        </div> 
+
+        <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0832.jpg" alt="">
+
+            <h3>
+                Ben Chadwick
+            </h3>
+            <p class="child">Email: </p>
+            <p class="child">Github: </p>
+        </div> 
+
+        <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0840.jpg" alt="">
+
+            <h3>
+                Gosia Mich
+            </h3>
+            <p class="child">Email: </p>
+            <p class="child">Github: </p>
+        </div>   
+        
 
     </div>
-    <!-- /.container -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <!-- Projects Row -->
+    <div class="row">
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+        <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0462.jpg" alt="">
+
+            <h3>
+                Patrick Monks 
+            </h3>
+
+            <p class="child">Email: </p>
+            <p class="child">Github: </p>
+
+        </div>
+
+        <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0839.jpg" alt="">
+
+            <h3>
+                Niel McEwen
+            </h3>
+
+            <p class="child">Email: </p>
+            <p class="child">Github: </p>
+
+        </div> 
+
+        <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0834.jpg" alt="">
+
+            <h3>
+                Scott Woodbyrne
+            </h3>
+
+            <p class="child">Email: </p>
+            <p class="child">Github: </p>
+
+        </div>   
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-4 portfolio-item parent">
+
+            <img class="img-responsive" src="img/IMG_0838.jpg" alt="">
+
+            <h3>
+               Juan Keville
+           </h3>
+           <p class="child">Email: </p>
+           <p class="child">Github: </p>
+       </div>
+
+       <div class="col-md-4 portfolio-item parent">
+
+        <img class="img-responsive" src="img/IMG_0831.jpg" alt="">
+
+        <h3>
+            Graham Fox 
+        </h3>
+        <p class="child">Email: </p>
+        <p class="child">Github: </p>
+
+    </div> 
+
+    <div class="col-md-4 portfolio-item parent">
+
+        <img class="img-responsive" src="img/IMG_0837.jpg" alt="">
+
+        <h3>
+            Denis O'Hanlon
+        </h3>
+        <p class="child">Email: </p>
+        <p class="child">Github: </p>
+
+    </div>   
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-4 portfolio-item parent">
+
+        <img class="img-responsive" src="http://placehold.it/360x270" alt="">
+
+        <h3>
+           Shane O'Connell
+       </h3>
+       <p class="child">Email: </p>
+       <p class="child">Github: </p>
+
+   </div>
+
+   <div class="col-md-4 portfolio-item parent">
+
+    <img class="img-responsive" src="img/IMG_0464.jpg" alt="">
+
+    <h3>
+        Niall Smith
+    </h3>
+    <p class="child">Email: </p>
+    <p class="child">Github: </p>
+
+</div> 
+
+<div class="col-md-4 portfolio-item parent">
+
+    <img class="img-responsive" src="http://placehold.it/360x270" alt="">
+
+    <h3>
+
+    </h3>
+
+</div>   
+
+</div>
+<!-- /.row -->
+
+<hr>
+
+<!-- Pagination -->
+<div class="row text-center">
+    <div class="col-lg-12">
+        <ul class="pagination">
+            <li>
+                <a href="#">&laquo;</a>
+            </li>
+            <li class="active">
+                <a href="#">1</a>
+            </li>
+            <li>
+                <a href="#">2</a>
+            </li>
+            <li>
+                <a href="#">3</a>
+            </li>
+            <li>
+                <a href="#">4</a>
+            </li>
+            <li>
+                <a href="#">5</a>
+            </li>
+            <li>
+                <a href="#">&raquo;</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- /.row -->
+
+<hr>
+
+<!-- Footer -->
+<footer>
+    <div class="row">
+        <div class="col-lg-12">
+            <p>Copyright &copy; Your Website 2014</p>
+        </div>
+    </div>
+    <!-- /.row -->
+</footer>
+
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
 
 </body>
 
