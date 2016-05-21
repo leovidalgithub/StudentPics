@@ -24,33 +24,21 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <style type="text/css">
 
-            .child {
-                display: none;
-                position: absolute;
-                top: 0;
-                left: 20;
-                background-color: black;
-                background: rgba(0,0,0,0.8);
-                height: 82.5%;
-                width: 92.5%;
-                color: white;
-            }
-            .parent{
-                position: relative;
-            }
+    <style type="text/css">
 
-            .parent:hover .child {
-                display: block;
+        .parent{ position: relative; }
+        .parent .child {
+            display: none;
+            height: 100%; width: 100%;
+            position: absolute; top: 0;
+            background: rgba(0,0,0,0.8); color: white;
+        }
+        .parent:hover .child { display: block; }
+        .child * { text-align: center; }
 
-                -webkit-animation: fadeIn 1s;
-                animation: fadeIn 1s;
-            }​
+    </style>
 
-           
-
-        </style>
 
     </head>
 
@@ -103,53 +91,59 @@
 
         <!-- Projects Row -->
         <div class="row">
-            <div class="col-md-4 portfolio-item parent">
-                <div class="image-container">
-                    <a href="#">
-                        <img class="img-responsive" src="img/IMG_0833.jpg" alt="">
-                        
-                    </a>
-                </div>
 
-                <div class="info-container child">
-                    <h3>Email: sean_brady@live.com </h3>
-                    <h3><a href='https://github.com/brady1989' target="blank">Github </a> </h3>
+            <!--  @begin: item  -->
+            <div class="col-md-4 portfolio-item ">
+
+                <div class="parent">
+                    <img class="img-responsive image-container" src="img/IMG_0833.jpg" alt="">
+                    <section class="info-container child">
+                        <h2>Sean Brady</h2>
+                        <dl>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:sean_brady@live.com" target="_blank">sean_brady@live.com</a></dd>
+                            <dt>Github</dt>
+                            <dd><a href="https://github.com/brady1989" target="_blank">https://github.com/brady1989</a></dd>
+                        </dl>
+                    </section>
                 </div>
-                <h3>
-                    Sean Brady
-                </h3>
 
             </div>
+            <!--  @end: item -->
+
 
             <div class="col-md-4 portfolio-item parent">
 
-                <img class="img-responsive" src="img/IMG_0835.jpg" alt="">
-
-                <div class="info-container child">
-                    <h3>Email: julien.clidiere@laposte.net </h3>
-                    <h3><a href='https://github.com/julienclidiere' target="blank">Github </a> </h3>
+                <div class="parent">
+                    <img class="img-responsive image-container" src="img/IMG_0835.jpg" alt="">
+                    <section class="info-container child">
+                        <h2>Julien Clidiere</h2>
+                        <dl>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:julien.clidiere@laposte.net" target="_blank">julien.clidiere@laposte.net</a></dd>
+                            <dt>Github</dt>
+                            <dd><a href="https://github.com/julienclidiere" target="_blank">https://github.com/julienclidiere</a></dd>
+                        </dl>
+                    </section>
                 </div>
-                
-                <h3>
-                    Julien Clidiere
-                </h3>
-                
-
 
             </div>
             <div class="col-md-4 portfolio-item parent">
 
-                <img class="img-responsive" src="img/IMG_0830.jpg" alt="">
-
-                <div class="info-container child">
-                    <h3>Email: luke.x.rickard@gmail.com </h3>
-                    <h3><a href='https://github.com/ljrickard' target="blank">Github </a> </h3>
+                <div class="parent">
+                    <img class="img-responsive image-container" src="img/IMG_0830.jpg" alt="">
+                    <section class="info-container child">
+                        <h2>Luke Rickard</h2>
+                        <dl>
+                            <dt>Email</dt>
+                            <dd><a href="mailto:luke.x.rickard@gmail.com" target="_blank">luke.x.rickard@gmail.com</a></dd>
+                            <dt>Github</dt>
+                            <dd><a href="https://github.com/ljrickard" target="_blank">https://github.com/ljrickard</a></dd>
+                        </dl>
+                    </section>
                 </div>
-                <h3>
-                    Luke Rickard
-                </h3>
 
-            </div>  
+            </div>
         </div>
         <!-- /.row -->
 
@@ -158,50 +152,55 @@
 
          <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0457.jpg" alt="">
-            <div class="info-container child">
-                <h3>Email: diarmuidn7@gmail.com </h3>
-                <h3><a href='https://github.com/diarmuidn' target="blank">Github </a> </h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0457.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Diarmuid Nash</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:diarmuidn7@gmail.com" target="_blank">diarmuidn7@gmail.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/diarmuidn" target="_blank">https://github.com/diarmuidn</a></dd>
+                    </dl>
+                </section>
             </div>
 
-            <h3>
-                Diarmuid Nash
-            </h3>
-
-
-
-        </div> 
+        </div>
 
         <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0832.jpg" alt="">
-            
-            <div class="info-container child">
-                <h3>Email: bchadwick94@gmail.com </h3>
-                <h3><a href='https://github.com/bench94' target="blank">Github </a></h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0832.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Ben Chadwick</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:bchadwick94@gmail.com" target="_blank">bchadwick94@gmail.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/bench94" target="_blank">https://github.com/bench94</a></dd>
+                    </dl>
+                </section>
             </div>
 
-            <h3>
-                Ben Chadwick
-            </h3>
-            
-        </div> 
+        </div>
 
         <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0840.jpg" alt="">
-            
-            <div class="info-container child">
-                <h3>Email: mmich7@hotmail.com </h3>
-                <h3><a href='https://github.com/Gosia-Mich' target="blank">Github</a> </h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0840.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Gosia Mich</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:mmich7@hotmail.com" target="_blank">mmich7@hotmail.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/Gosia-Mich" target="_blank">https://github.com/Gosia-Mich</a></dd>
+                    </dl>
+                </section>
             </div>
 
-            <h3>
-                Gosia Mich
-            </h3>
+        </div>
 
-        </div>   
-        
 
     </div>
 
@@ -210,54 +209,55 @@
 
         <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0462.jpg" alt="">
-            
-            <div class="info-container child">
-                <h3>Email: patricknjmonks@gmail.com </h3>
-                <h3><a href='https://github.com/patrickmonks' target="blank">Github </a></h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0462.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Patrick (Paddy) Monks</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:patricknjmonks@gmail.com" target="_blank">patricknjmonks@gmail.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/patrickmonks" target="_blank">https://github.com/patrickmonks</a></dd>
+                    </dl>
+                </section>
             </div>
-
-            <h3>
-                Patrick Monks 
-            </h3>
-
-
 
         </div>
 
         <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0839.jpg" alt="">
 
-            <div class="info-container child">
-                <h3>Email: niel_mcewen@hotmail.com </h3>
-                <h3><a href='https://github.com/NielMc' target="blank">Github </a></h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0839.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Niel McEwen</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:niel_mcewen@hotmail.com" target="_blank">niel_mcewen@hotmail.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/NielMc" target="_blank">https://github.com/NielMc</a></dd>
+                    </dl>
+                </section>
             </div>
 
-            <h3>
-                Niel McEwen
-            </h3>
-
-            
-
-        </div> 
+        </div>
 
         <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0834.jpg" alt="">
-
-            <div class="info-container child">
-                <h3>Email: scott.woodbyrne@gmail.com </h3>
-                <h3><a href='https://github.com/scottwoodbyrne' target="blank">Github </a></h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0834.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Scott Woodbyrne</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:scott.woodbyrne@gmail.com" target="_blank">scott.woodbyrne@gmail.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/scottwoodbyrne" target="_blank">https://github.com/scottwoodbyrne</a></dd>
+                    </dl>
+                </section>
             </div>
 
-            <h3>
-                Scott Woodbyrne
-            </h3>
-
-
-
-        </div>   
+        </div>
 
     </div>
 
@@ -265,50 +265,54 @@
 
         <div class="col-md-4 portfolio-item parent">
 
-            <img class="img-responsive" src="img/IMG_0838.jpg" alt="">
-
-            <div class="info-container child">
-                <h3>Email: kevillejuan@eircom.net </h3>
-                <h3><a href='https://github.com/JuanKeville' target="blank">Github </a></h3>
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0838.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Juan Keville</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:kevillejuan@eircom.net" target="_blank">kevillejuan@eircom.net</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/JuanKeville" target="_blank">https://github.com/JuanKeville</a></dd>
+                    </dl>
+                </section>
             </div>
-
-            <h3>
-               Juan Keville
-           </h3>
 
        </div>
 
        <div class="col-md-4 portfolio-item parent">
 
-        <img class="img-responsive" src="img/IMG_0831.jpg" alt="">
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0831.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Graham Fox</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:grahamfox@live.ie" target="_blank">grahamfox@live.ie</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/GrahamFox" target="_blank">https://github.com/GrahamFox</a></dd>
+                    </dl>
+                </section>
+            </div>
 
-        <div class="info-container child">
-            <h3>Email: grahamfox@live.ie </h3>
-            <h3><a href='https://github.com/GrahamFox' target="blank">Github </a> </h3>
-        </div>
-
-        <h3>
-            Graham Fox 
-        </h3>
-
-
-    </div> 
+    </div>
 
     <div class="col-md-4 portfolio-item parent">
 
-        <img class="img-responsive" src="img/IMG_0837.jpg" alt="">
+            <div class="parent">
+                <img class="img-responsive image-container" src="img/IMG_0837.jpg" alt="">
+                <section class="info-container child">
+                    <h2>Denis O'Hanlon</h2>
+                    <dl>
+                        <dt>Email</dt>
+                        <dd><a href="mailto:dohanlon@email.com" target="_blank">dohanlon@email.com</a></dd>
+                        <dt>Github</dt>
+                        <dd><a href="https://github.com/dohanlon01" target="_blank">https://github.com/dohanlon01</a></dd>
+                    </dl>
+                </section>
+            </div>
 
-        <div class="info-container child">
-            <h3>Email: dohanlon@email.com </h3>
-            <h3><a href='https://github.com/dohanlon01' target="blank">Github </a></h3>
-        </div>
-
-        <h3>
-            Denis O'Hanlon
-        </h3>
-
-
-    </div>   
+    </div>
 
 </div>
 
@@ -316,34 +320,37 @@
 
     <div class="col-md-4 portfolio-item parent">
 
-        <img class="img-responsive" src="http://placehold.it/360x270" alt="">
-
-        <div class="info-container child">
-            <h3>Email: shane.adoconnell@gmail.com </h3>
-            <h3><a href='https://github.com/Shane0c83' target="blank">Github </a></h3>
+        <div class="parent">
+            <img class="img-responsive image-container" src="http://placehold.it/360x270" alt="">
+            <section class="info-container child">
+                <h2>Shane O'Connell</h2>
+                <dl>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:shane.adoconnell@gmail.com" target="_blank">shane.adoconnell@gmail.com</a></dd>
+                    <dt>Github</dt>
+                    <dd><a href="https://github.com/Shane0c83" target="_blank">https://github.com/Shane0c83</a></dd>
+                </dl>
+            </section>
         </div>
-
-        <h3>
-           Shane O'Connell
-       </h3>
-
 
    </div>
 
    <div class="col-md-4 portfolio-item parent">
 
-    <img class="img-responsive" src="img/IMG_0464.jpg" alt="">
+         <div class="parent">
+            <img class="img-responsive image-container" src="img/IMG_0464.jpg" alt="">
+            <section class="info-container child">
+                <h2>Niall Smith</h2>
+                <dl>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:sniallsmi@gmail.com" target="_blank">sniallsmi@gmail.com</a></dd>
+                    <dt>Github</dt>
+                    <dd><a href="https://github.com/niallgsmith" target="_blank">https://github.com/niallgsmith</a></dd>
+                </dl>
+            </section>
+        </div>
 
-    <div class="info-container child">
-    <h3>Email: niallsmi@gmail.com </h3>
-        <h3><a href='https://github.com/niallgsmith' target="blank">Github </a></h3>
-    </div>
-
-    <h3>
-        Niall Smith
-    </h3>
-
-</div> 
+</div>
 
 
 </div>
