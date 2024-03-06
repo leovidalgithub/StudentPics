@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/leovidal/easywebcorp/
-    - /bin/cp -a * $DEPLOYPATH
+    - export DEPLOYPATH=/home/leovidal/easywebcorp.com/
+    - /bin/cp -R * $DEPLOYPATH
